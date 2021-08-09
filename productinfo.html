@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- swiper custom css -->
+    <link rel="stylesheet" href="css/productswiper.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/productinfo.css" />
+  </head>
+  <body>
+    <!-- navbar section -->
+    <div class="sv-navbar">
+      <div class="container-fluid">
+        <div class="sv-navbar-wrapper">
+          <div class="row">
+            <!-- left section -->
+            <div class="col-md-3">
+              <div class="sv-navbar-left">
+                <div class="sv-navbar-logo">
+                  <img src="img/index/logo/svlogo.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <!-- right section -->
+            <div class="col-md-9">
+              <div class="d-flex justify-content-end sv-navbar-right">
+                <!-- each box -->
+                <div class="d-flex sv-navbar-box">
+                  <div class="pe-3 sv-navbar-icon sv-navbar-email-icon">
+                    <i class="far fa-envelope"></i>
+                  </div>
+                  <div class="sv-navbar-box-desc sv-navbar-email-desc">
+                    <h3>Email</h3>
+                    <p>info@somervillecommunication.com</p>
+                  </div>
+                </div>
+
+                <!-- each box -->
+                <div class="d-flex sv-navbar-box">
+                  <div class="pe-3 sv-navbar-icon sv-navbar-email-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div class="sv-navbar-box-desc sv-navbar-email-desc">
+                    <h3>Phone</h3>
+                    <p>(617)418-6005</p>
+                  </div>
+                </div>
+
+                <!-- each box -->
+                <div class="d-flex sv-navbar-box">
+                  <div class="pe-3 sv-navbar-icon sv-navbar-email-icon">
+                    <i class="far fa-clock"></i>
+                  </div>
+                  <div class="sv-navbar-box-desc sv-navbar-email-desc">
+                    <h3>Opening Hour</h3>
+                    <p>Mon-Fri : 9 AM -8 PM</p>
+                    <p>Sat : 10 AM - 8 PM</p>
+                    <p>Sun : 10 AM - 7 PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- mini navbar -->
+    <div class="sv-mini-navbar">
+      <div class="sv-mini-navbar-wrapper">
+        <!-- left section -->
+        <div class="sv-mini-navbar-left">
+          <div class="mini-nav-hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+          <ul class="sv-mini-navbar-menu-left">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="repair.html">Repair</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- right section -->
+        <ul class="d-flex sv-mini-navbar-menu-right">
+          <li class="nav-search-btn"><i class="fas fa-search"></i></li>
+          <li><i class="fas fa-shopping-bag"></i></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- global background overlay -->
+    <div class="sv-mini-navbar-global-overlay"></div>
+
+    <!-- navbar global search -->
+    <!-- navbar search box -->
+    <div class="sv-mini-navbar-search">
+      <div class="sv-mini-navbar-close">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="sv-mini-navbar-search-wrapper">
+        <form class="sv-mini-navbar-search-box" action="">
+          <div class="sv-mini-navbar-search-tab">
+            <input type="text" placeholder="Search" />
+          </div>
+          <button><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <!-- new section -->
+    <!-- product info -->
+    <div class="sv-product-info">
+      <div class="container">
+        <div class="product-info-top">
+          <div class="sv-product-info-title">
+            <h2>IphoneX 256GB</h2>
+          </div>
+          <div class="d-flex sv-product-info-wrapper">
+            <!-- left secton -->
+            <div class="sv-product-info-left">
+              <div class="d-flex align-items-start">
+                <div
+                  class="nav flex-column nav-pills me-3"
+                  id="v-pills-tab"
+                  role="tablist"
+                  aria-orientation="vertical"
+                >
+                  <div
+                    class="product-info-tab active"
+                    id="v-pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-home"
+                    role="tab"
+                    aria-controls="v-pills-home"
+                    aria-selected="true"
+                  >
+                    <img src="img/product/iphonex.png" alt="" />
+                  </div>
+                  <div
+                    class="product-info-tab"
+                    id="v-pills-profile-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile"
+                    role="tab"
+                    aria-controls="v-pills-profile"
+                    aria-selected="false"
+                  >
+                    <img src="img/product/samsung.png" alt="" />
+                  </div>
+                  <div
+                    class="product-info-tab"
+                    id="v-pills-messages-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-messages"
+                    role="tab"
+                    aria-controls="v-pills-messages"
+                    aria-selected="false"
+                  >
+                    <img src="img/product/iphonex.png" alt="" />
+                  </div>
+                  <div
+                    class="product-info-tab"
+                    id="v-pills-settings-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-settings"
+                    role="tab"
+                    aria-controls="v-pills-settings"
+                    aria-selected="false"
+                  >
+                    <img src="img/product/samsung.png" alt="" />
+                  </div>
+                </div>
+                <!-- tab right section -->
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="v-pills-home"
+                    role="tabpanel"
+                    aria-labelledby="v-pills-home-tab"
+                  >
+                    <img src="img/product/iphonex.png" alt="" />
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="v-pills-profile"
+                    role="tabpanel"
+                    aria-labelledby="v-pills-profile-tab"
+                  >
+                    <img src="img/product/samsung.png" alt="" />
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="v-pills-messages"
+                    role="tabpanel"
+                    aria-labelledby="v-pills-messages-tab"
+                  >
+                    <img src="img/product/iphonex.png" alt="" />
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="v-pills-settings"
+                    role="tabpanel"
+                    aria-labelledby="v-pills-settings-tab"
+                  >
+                    <img src="img/product/samsung.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- right section -->
+            <div class="sv-product-info-right">
+              <div class="sv-product-info-price">
+                <p>Price</p>
+                <h3>$500</h3>
+              </div>
+              <div class="sv-product-info-offers">
+                <p>Offers</p>
+                <h3>10% Dis</h3>
+              </div>
+              <div class="sv-product-info-stock">
+                <p>In Stock</p>
+                <h6>Varient Available</h6>
+              </div>
+              <div class="sv-product-info-colors">
+                <p>Color</p>
+                <div class="sv-product-info-colors-wrapper">
+                  <form action="">
+                    <label class="radio-container">
+                      <input type="radio" checked="checked" name="radio" />
+                      <span class="checkmark checkmark-red"></span>
+                    </label>
+                    <label class="radio-container">
+                      <input type="radio" name="radio" />
+                      <span class="checkmark checkmark-blue"></span>
+                    </label>
+                    <label class="radio-container">
+                      <input type="radio" name="radio" />
+                      <span class="checkmark checkmark-green"></span>
+                    </label>
+                  </form>
+                </div>
+              </div>
+              <div class="sv-product-info-storage">
+                <p>Storage</p>
+                <div class="sv-product-info-storage-wrapper">
+                  <p>128 Gb / 6 GB</p>
+                  <p>256 Gb / 8 GB</p>
+                </div>
+              </div>
+              <div class="sv-product-info-checkout">
+                <button>Add to Cart</button>
+                <button>Checkout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- product info bottom -->
+        <div class="d-flex sv-product-info-bottom">
+          <!-- left section -->
+          <div class="sv-product-info-bottom-left">
+            <div class="mb-3 sv-product-info-bottom-left-title">
+              <h4>Product Description</h4>
+            </div>
+            <div class="sv-product-info-desc">
+              <h6>
+                Product works and looks like new. Backed by the 90-day
+                Guarantee.
+              </h6>
+              <p>
+                This pre-owned product is not Apple certified, but has been
+                professionally inspected, tested and cleaned by Amazon-qualified
+                suppliers. -There will be no visible cosmetic imperfections when
+                held at an arm’s length. -This product will have a battery which
+                exceeds 80% capacity relative to new. Accessories will not be
+                original, but will be compatible and fully functional. Product
+                may come in generic Box.
+              </p>
+            </div>
+          </div>
+          <!-- right section -->
+          <div class="sv-product-info-bottom-right">
+            <div class="sv-product-info-bottom-right-title">
+              <h4>Product Review</h4>
+              <p>No Reivew Yet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- new section -->
+    <!-- related products -->
+    <!-- new sectin -->
+    <!-- feature products -->
+    <div class="sv-feature-product">
+      <div class="container-fluid">
+        <!-- Swiper -->
+        <div class="swiper-container feature-swiper">
+          <div class="swiper-wrapper">
+            <!-- each box -->
+            <a href="#" class="swiper-slide sv-feature-product-box">
+              <div class="sv-feature-product-img">
+                <img src="img/index/featurepd/iphonex.png" alt="" />
+              </div>
+              <div class="sv-feature-product-desc">
+                <p class="sv-feature-product-name">iphoneX</p>
+                <p class="sv-feature-product-price">$500</p>
+              </div>
+            </a>
+
+            <!-- each box -->
+            <a href="#" class="swiper-slide sv-feature-product-box">
+              <div class="sv-feature-product-img">
+                <img src="img/index/featurepd/iphonex.png" alt="" />
+              </div>
+              <div class="sv-feature-product-desc">
+                <p class="sv-feature-product-name">iphoneX</p>
+                <p class="sv-feature-product-price">$500</p>
+              </div>
+            </a>
+
+            <!-- each box -->
+            <a href="#" class="swiper-slide sv-feature-product-box">
+              <div class="sv-feature-product-img">
+                <img src="img/index/featurepd/iphonex.png" alt="" />
+              </div>
+              <div class="sv-feature-product-desc">
+                <p class="sv-feature-product-name">iphoneX</p>
+                <p class="sv-feature-product-price">$500</p>
+              </div>
+            </a>
+
+            <!-- each box -->
+            <a href="#" class="swiper-slide sv-feature-product-box">
+              <div class="sv-feature-product-img">
+                <img src="img/index/featurepd/iphonex.png" alt="" />
+              </div>
+              <div class="sv-feature-product-desc">
+                <p class="sv-feature-product-name">iphoneX</p>
+                <p class="sv-feature-product-price">$500</p>
+              </div>
+            </a>
+
+            <!-- each box -->
+            <a href="#" class="swiper-slide sv-feature-product-box">
+              <div class="sv-feature-product-img">
+                <img src="img/index/featurepd/iphonex.png" alt="" />
+              </div>
+              <div class="sv-feature-product-desc">
+                <p class="sv-feature-product-name">iphoneX</p>
+                <p class="sv-feature-product-price">$500</p>
+              </div>
+            </a>
+
+            <!-- each box -->
+            <a href="#" class="swiper-slide sv-feature-product-box">
+              <div class="sv-feature-product-img">
+                <img src="img/index/featurepd/iphonex.png" alt="" />
+              </div>
+              <div class="sv-feature-product-desc">
+                <p class="sv-feature-product-name">iphoneX</p>
+                <p class="sv-feature-product-price">$500</p>
+              </div>
+            </a>
+
+            <!-- each box -->
+            <a href="#" class="swiper-slide sv-feature-product-box">
+              <div class="sv-feature-product-img">
+                <img src="img/index/featurepd/iphonex.png" alt="" />
+              </div>
+              <div class="sv-feature-product-desc">
+                <p class="sv-feature-product-name">iphoneX</p>
+                <p class="sv-feature-product-price">$500</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- new section -->
+    <!-- footer section -->
+    <div class="sv-footer">
+      <div class="container">
+        <div class="sv-footer-wrapper">
+          <!-- footer top section -->
+          <div class="sv-footer-top">
+            <div class="sv-footer-top-left">
+              <img src="img/index/footer/footer-logo.png" alt="" />
+            </div>
+            <div class="sv-footer-top-right">
+              <p>
+                376A Chelsea Street, East Boston,<br />
+                02128 United States
+              </p>
+              <p>(617) 418-6005</p>
+              <p>info@somervillecommunication.com</p>
+            </div>
+          </div>
+          <!-- footer bottom section -->
+          <div class="sv-footer-bottom">
+            <!-- each box -->
+            <div class="sv-footer-bottom-box">
+              <div class="sv-footer-bottom-title">
+                <h3>Customer Service</h3>
+              </div>
+              <div class="sv-footer-bottom-desc">
+                <ul>
+                  <li><a href="#">FAQ's</a></li>
+                  <li><a href="#">Repair Guide</a></li>
+                  <li><a href="#">My Account</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- each box -->
+            <div class="sv-footer-bottom-box">
+              <div class="sv-footer-bottom-title">
+                <h3>Customer Service</h3>
+              </div>
+              <div class="sv-footer-bottom-desc">
+                <ul>
+                  <li><a href="#">FAQ's</a></li>
+                  <li><a href="#">Repair Guide</a></li>
+                  <li><a href="#">My Account</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- each box -->
+            <div class="sv-footer-bottom-box">
+              <div class="sv-footer-bottom-title">
+                <h3>Customer Service</h3>
+              </div>
+              <div class="sv-footer-bottom-desc">
+                <ul>
+                  <li><a href="#">Receive coupnes and other offers</a></li>
+                  <li class="sv-footer-subscribe">
+                    <div class="sv-footer-subscribe-email">
+                      <input type="text" placeholder="Your Email" />
+                    </div>
+                    <input type="submit" value="Submit" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- Bootstrap JavaScript Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
+  <!-- swiper js cdn -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- custom swiper js -->
+  <script src="js/swiper.js"></script>
+  <script src="js/index.js"></script>
+</html>

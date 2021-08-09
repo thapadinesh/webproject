@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- swiper custom css -->
+    <link rel="stylesheet" href="css/swiper.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/repair.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/flatly/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+<link rel="stylesheet" href="library/gallery/css/redman-photoGallery.min.css">
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<style>
+      body { background: #fafafa; min-height: 100vh; }
+  .container { margin: 70px auto; }
+  </style>
+  </head>
+  <body>
+    <!-- navbar section -->
+    <div class="sv-navbar">
+      <div class="container-fluid">
+        <div class="sv-navbar-wrapper">
+          <div class="row">
+            <!-- left section -->
+            <div class="col-md-3">
+              <div class="sv-navbar-left">
+                <div class="sv-navbar-logo">
+                  <img src="img/index/logo/svlogo.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <!-- right section -->
+            <div class="col-md-9">
+              <div class="d-flex justify-content-end sv-navbar-right">
+                <!-- each box -->
+                <div class="d-flex sv-navbar-box">
+                  <div class="pe-3 sv-navbar-icon sv-navbar-email-icon">
+                    <i class="far fa-envelope"></i>
+                  </div>
+                  <div class="sv-navbar-box-desc sv-navbar-email-desc">
+                    <h3>Email</h3>
+                    <p>info@somervillecommunication.com</p>
+                  </div>
+                </div>
+
+                <!-- each box -->
+                <div class="d-flex sv-navbar-box">
+                  <div class="pe-3 sv-navbar-icon sv-navbar-email-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div class="sv-navbar-box-desc sv-navbar-email-desc">
+                    <h3>Phone</h3>
+                    <p>(617)418-6005</p>
+                  </div>
+                </div>
+
+                <!-- each box -->
+                <div class="d-flex sv-navbar-box">
+                  <div class="pe-3 sv-navbar-icon sv-navbar-email-icon">
+                    <i class="far fa-clock"></i>
+                  </div>
+                  <div class="sv-navbar-box-desc sv-navbar-email-desc">
+                    <h3>Opening Hour</h3>
+                    <p>Mon-Fri : 9 AM -8 PM</p>
+                    <p>Sat : 10 AM - 8 PM</p>
+                    <p>Sun : 10 AM - 7 PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- mini navbar -->
+    <div class="sv-mini-navbar">
+      <div class="sv-mini-navbar-wrapper">
+        <!-- left section -->
+        <div class="sv-mini-navbar-left">
+          <div class="mini-nav-hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+          <ul class="sv-mini-navbar-menu-left">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="repair.html">Repair</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- right section -->
+        <ul class="d-flex sv-mini-navbar-menu-right">
+          <li class="nav-search-btn"><i class="fas fa-search"></i></li>
+          <li><i class="fas fa-shopping-bag"></i></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- global background overlay -->
+    <div class="sv-mini-navbar-global-overlay"></div>
+
+    <!-- navbar global search -->
+    <!-- navbar search box -->
+    <div class="sv-mini-navbar-search">
+      <div class="sv-mini-navbar-close">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="sv-mini-navbar-search-wrapper">
+        <form class="sv-mini-navbar-search-box" action="">
+          <div class="sv-mini-navbar-search-tab">
+            <input type="text" placeholder="Search" />
+          </div>
+          <button><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <!-- new section -->
+    <!-- repair section -->
+    <div class="sv-repair">
+<div class="container">
+        <div class="sv-why-work-title">
+            <h2>Gallery</h2>
+        </div>
+<div id="carbon-block" style="margin:50px auto" align="center"></div>
+<div style="margin:50px auto" align="center">
+                    <div class="redman-gallery" data-redman-totalCount="17" data-redman-countPerPage="6" data-redman-countPerRow="3" data-redman-startHeight="250" data-redman-theme="dark">
+                        <img src="https://source.unsplash.com/800x500/?nature" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?people" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?beach" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?cat" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?fitness" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?dog" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?pet" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?workout" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?running" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?travel" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?water" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?holiday" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?exercise" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?yoga" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?female" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?swimming" alt="image alt">
+                        <img src="https://source.unsplash.com/800x500/?summer" alt="image alt">
+                    </div>
+                </div>
+  </div>
+</div>
+
+    <!-- new section -->
+    <!-- footer section -->
+    <div class="sv-footer">
+      <div class="container">
+        <div class="sv-footer-wrapper">
+          <!-- footer top section -->
+          <div class="sv-footer-top">
+            <div class="sv-footer-top-left">
+              <img src="img/index/footer/footer-logo.png" alt="" />
+            </div>
+            <div class="sv-footer-top-right">
+              <p>
+                376A Chelsea Street, East Boston,<br />
+                02128 United States
+              </p>
+              <p>(617) 418-6005</p>
+              <p>info@somervillecommunication.com</p>
+            </div>
+          </div>
+          <!-- footer bottom section -->
+          <div class="sv-footer-bottom">
+            <!-- each box -->
+            <div class="sv-footer-bottom-box">
+              <div class="sv-footer-bottom-title">
+                <h3>Customer Service</h3>
+              </div>
+              <div class="sv-footer-bottom-desc">
+                <ul>
+                  <li><a href="#">FAQ's</a></li>
+                  <li><a href="#">Repair Guide</a></li>
+                  <li><a href="#">My Account</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- each box -->
+            <div class="sv-footer-bottom-box">
+              <div class="sv-footer-bottom-title">
+                <h3>Customer Service</h3>
+              </div>
+              <div class="sv-footer-bottom-desc">
+                <ul>
+                  <li><a href="#">FAQ's</a></li>
+                  <li><a href="#">Repair Guide</a></li>
+                  <li><a href="#">My Account</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- each box -->
+            <div class="sv-footer-bottom-box">
+              <div class="sv-footer-bottom-title">
+                <h3>Customer Service</h3>
+              </div>
+              <div class="sv-footer-bottom-desc">
+                <ul>
+                  <li><a href="#">Receive coupnes and other offers</a></li>
+                  <li class="sv-footer-subscribe">
+                    <div class="sv-footer-subscribe-email">
+                      <input type="text" placeholder="Your Email" />
+                    </div>
+                    <input type="submit" value="Submit" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- Bootstrap JavaScript Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
+  <!-- swiper js cdn -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- custom swiper js -->
+  <script src="js/swiper.js"></script>
+
+  <script src="js/index.js"></script>
+
+  <!--For gallery -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="library/gallery/js/redman-photoGallery.min.js"></script>
+</html>
